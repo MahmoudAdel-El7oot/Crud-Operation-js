@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> WebSite for Student </h1>
+    <ul>
+        <li>
+            <p style="margin-top: 60px;font-size: 20px;">Please Enter Student data :</p>
+        </li>
+    </ul>
+
+
+
+    <div>
+        <div>
+            <input type="text" id="name" placeholder="Student Name" autofocus required class="input"
+                style="font-size: 20px;">
+            <p id="va" style="color: red; font-size: 16px;"></p>
+            <input type="text" id="Age" placeholder="Student Age" required class="input" style="font-size: 20px;">
+            <p id="vb" style="color: red;font-size: 16px"></p>
+        </div>
+        <div>
+            <input type="text" id="phone" placeholder="Phone Number" required class="input" style="font-size: 20px;">
+            <p id="vc" style="color: red;font-size: 16px"></p>
+            <input type="text" id="AC" placeholder="Academic Year" required class="input" style="font-size: 20px;">
+            <p id="vd" style="color: red;font-size: 16px"></p>
+
+        </div>
+        <div>
+            <input type="text" id="id" placeholder="National ID" required class="input" style="font-size: 20px;">
+            <p id="ve" style="color: red;font-size: 16px"></p>
+        </div>
+        <div id="addBtn">
+            <input disabled type="submit" id="btn" value="SAVE"
+                style="color: rgb(5, 47, 5);background-color: rgb(13, 83, 134);font-size: 25px;">
+
+        </div>
+        <div style="margin-left: 500px">
+            <label for="search" style="font-size: 20px;color: rgb(38, 78, 13);"> Search by Name:</label>
+            <input type="search" id="search" onkeyup="search(this.value)" style="font-size: 25px;">
+
+        </div>
+
+
+
+        <div style="margin-left: 200px; margin-top: 30px;">
+            <table border="10">
+                <thead>
+                    <tr style="background-color:  rgb(206, 28, 96);;">
+                        <td>NO.</td>
+                        <td>Name</td>
+                        <td>Age</td>
+                        <td>Phone</td>
+                        <td>Academic Year</td>
+                        <td>National ID</td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+        <script src="main.js"></script>
+</body>
+
+</html>

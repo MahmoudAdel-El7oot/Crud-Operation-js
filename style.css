@@ -1,0 +1,20 @@
+body {
+    background-image: url(image4.png);
+    background-size: 100%;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+}
+
+h1 {
+    margin-left: 40%;
+    margin-top: 25px;
+    color: rgb(206, 28, 96);
+}
